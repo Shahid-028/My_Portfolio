@@ -12,6 +12,6 @@ export default defineConfig({
     },
   },
   server: {
-    allowedHosts: ['klvqpp-5173.csb.app'], // 👈 Add this line
+    allowedHosts: 'all', 
   },
 });
