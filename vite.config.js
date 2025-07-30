@@ -5,13 +5,11 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/My_Portfolio/', // 👈 important!
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-  },
-  server: {
-    allowedHosts: 'all', 
   },
 });
