@@ -11,4 +11,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    allowedHosts: ['klvqpp-5173.csb.app'], // 👈 Add this line
+  },
 });
